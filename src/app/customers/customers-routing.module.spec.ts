@@ -8,7 +8,7 @@ import { AppRoutingModule } from '../app-routing.module';
 import { AppModule } from '../app.module';
 import { CustomersRoutingModule, routes } from './customers-routing.module';
 
-describe('Router: Backbone Bom Module', () => {
+describe('Router Module', () => {
   let location: Location;
   let router: Router;
   let ngZone: NgZone;
