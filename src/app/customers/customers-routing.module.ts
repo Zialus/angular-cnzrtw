@@ -4,7 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CustomersComponent } from './customers.component';
 
 
-const routes: Routes = [
+export const routes: Routes = [
   {
     path: '',
     component: CustomersComponent

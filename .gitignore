@@ -1,0 +1,5 @@
+.angular
+# stryker temp files
+.stryker-tmp
+coverage
+node_modules
