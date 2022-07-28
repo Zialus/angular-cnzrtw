@@ -48,7 +48,7 @@ module.exports = function(config, dir) {
       includeAllSources: true,
     },
     reporters: ['progress', 'coverage'],
-    browsers: ['ChromiumHeadless'],
+    browsers: ['ChromeHeadless'],
     singleRun: true,
     port: 9876,
     colors: true,

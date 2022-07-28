@@ -14,7 +14,7 @@ const config = {
     configFile: "karma.conf.js",
     projectType: "angular-cli",
     config: {
-      browsers: ["ChromiumHeadless"],
+      browsers: ["ChromeHeadless"],
     },
   },
   reporters: ["progress", "clear-text", "html"],

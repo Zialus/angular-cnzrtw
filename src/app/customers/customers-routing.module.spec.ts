@@ -29,8 +29,8 @@ describe('Router: Backbone Bom Module', () => {
   });
 
   it('should navigate to view page', async () => {
-    await ngZone.run(() => router.navigateByUrl('bom/view'));
+    await ngZone.run(() => router.navigateByUrl('customers'));
 
-    expect(location.path()).toBe('/bom/view');
+    expect(location.path()).toBe('/customers');
   });
 });
